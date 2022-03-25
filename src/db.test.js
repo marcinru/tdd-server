@@ -6,8 +6,7 @@ describe('getUserByUsername', () => {
     it('gets the correct user from the database given a username', async () => {
         const client = await MongoClient.connect(
             'mongodb://localhost:27017/TEST_DB', {
-                useNewUrlParser: true,
-                useUnifiedTechnology: true
+                useNewUrlParser: true
             }
         );
 
