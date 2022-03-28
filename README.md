@@ -18,3 +18,8 @@ npm test
 ```
 npm run test:watch
 ```
+
+## Testing code coverage
+```
+npm run coverage
+```
