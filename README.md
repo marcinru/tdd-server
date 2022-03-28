@@ -13,3 +13,8 @@ More info: https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-os-x/
 npm install
 npm test
 ```
+
+### Running tests in watch mode
+```
+npm run test:watch
+```
